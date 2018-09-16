@@ -1,0 +1,2332 @@
+[
+  {
+    "name": "rinkeby.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.0.1": {
+        "name": "rinkeby.eduadiez",
+        "version": "1.0.173",
+        "description": "Rinkeby chain for DPS (ethereum/client-go:v1.7.3)",
+        "image": {
+          "path": "rinkeby.eduadiez_1.0.173.tar.xz",
+          "hash": "QmPrZEenB9h7gmhtgN51ersGBGjzEQpW8c3q16Ar6rNZa9",
+          "size": 9319610,
+          "name": "eduadiez/rinkeby.eduadiez",
+          "version": "1.0.173",
+          "docker_opts": "-v rinkeby:/home/.rinkeby -p 30303"
+        },
+        "versions": {
+          "1.0.170": "QmdqZErzXsMBZHTLyhuCXSDjZgJwos51E8PnvSSiiqqyvF",
+          "1.0.171": "QmNyDpib6DU7NX9tk6DqQovfywygN3X72pu1SjpiNa37Ns",
+          "1.0.172": "QmWehf6vcJ7D8Yf41nKcZNX1KriUzMadzp5sC53bRAYK4j"
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "user": "eduadiez",
+        "license": "MIT",
+        "dependencies": {}
+      },
+      "0.0.3": {
+        "name": "rinkeby.dnp.dappnode.eth",
+        "version": "0.0.3",
+        "description": "Rinkeby chain for DAppNode (ethereum/client-go:v1.8.8)",
+        "avatar": "QmShX6GQ7j3893zRuyLU6mryuPaNufyjFqLy7xJRSFaMMa",
+        "image": {
+          "path": "rinkeby.dnp.dappnode.eth_0.0.3.tar.xz",
+          "hash": "QmXiZmzHa9Ut3zGpe3mb2iGR3B1z52c3VMFjQEK3g7pyYQ",
+          "size": 10120664,
+          "ports": ["30303"],
+          "volumes": ["rinkeby:/home/.rinkeby"],
+          "name": "rinkeby.dnp.dappnode.eth",
+          "version": "0.0.3"
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "license": "MIT",
+        "dependencies": {}
+      },
+      "0.0.2": {
+        "name": "rinkeby.dnp.dappnode.eth",
+        "version": "0.0.2",
+        "description": "Rinkeby chain for DAppNode (ethereum/client-go:v1.8.3)",
+        "image": {
+          "path": "rinkeby.dnp.dappnode.eth_0.0.2.tar.xz",
+          "hash": "QmWMgArGd3aSKdYmjCdHU756LpxpcNMw7BYALFz9YrJcPU",
+          "size": 9309794,
+          "ports": ["30303"],
+          "volumes": ["rinkeby:/home/.rinkeby"],
+          "name": "rinkeby.dnp.dappnode.eth",
+          "version": "0.0.2"
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "license": "MIT",
+        "dependencies": {}
+      },
+      "0.1.0": {
+        "name": "rinkeby.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Rinkeby chain for DAppNode (ethereum/client-go:v1.8.11)",
+        "avatar": "/ipfs/QmShX6GQ7j3893zRuyLU6mryuPaNufyjFqLy7xJRSFaMMa",
+        "type": "library",
+        "image": {
+          "path": "rinkeby.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmeuB9AhaE36PWCxbke1uWy1mUnt75cot4e1enPnS6Mirt",
+          "size": 10062348,
+          "ports": ["30303"],
+          "volumes": ["rinkeby:/home/.rinkeby"]
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "keywords": ["geth", "rinkeby", "ethereum"],
+        "homepage": {
+          "homepage": "http://rinkeby.io/"
+        },
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/DAppNodePackages/rinkeby.git"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DAppNode/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {}
+      }
+    }
+  },
+  {
+    "name": "monero.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.0.1": {
+        "name": "monero.dnp.dappnode.eth",
+        "version": "0.0.1",
+        "description": "monerod is the daemon software that ships with the Monero tree. It is a console program, and manages the blockchain",
+        "avatar": "/ipfs/Qmb3L7wgoJ8UvduwcwjqUudcEnZgXKVAZvQ8rNE5L6vR34",
+        "type": "service",
+        "image": {
+          "path": "monero.dnp.dappnode.eth_0.0.1.tar.xz",
+          "hash": "/ipfs/QmbRpWjAPVMTrQt2AAKdVTf4VZ8nPBnwtay1TFByg276E1",
+          "size": 15415820,
+          "ports": ["18080:18080"],
+          "volumes": ["data:/root/.bitmonero"]
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "keywords": ["monero"],
+        "homepage": {
+          "homepage": ""
+        },
+        "repository": {
+          "type": "git",
+          "url": ""
+        },
+        "bugs": {
+          "url": ""
+        },
+        "license": "GPL-3.0",
+        "dependencies": {}
+      }
+    }
+  },
+  {
+    "name": "telegram-mtpproto.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.0.1": {
+        "name": "telegram-mtpproto.dnp.dappnode.eth",
+        "version": "0.0.1",
+        "description": "The Telegram Messenger MTProto proxy is a zero-configuration container that automatically sets up a proxy server that speaks Telegram's native MTProto.",
+        "avatar": "/ipfs/QmTBnWW6Y8WhkjqriaxPrEs1FXyVwCzG93sRAR3LZYxRPB",
+        "type": "service",
+        "image": {
+          "path": "telegram-mtpproto.dnp.dappnode.eth_0.0.1.tar.xz",
+          "hash": "/ipfs/QmP5rQyWBtEbxRUUHguv7rqvDQagjiN222t4CZzByWAEsZ",
+          "size": 33839813,
+          "ports": ["4334:443"],
+          "volumes": ["proxy-config:/data"]
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "keywords": ["Telegram", "proxy", "mtpproto"],
+        "homepage": {
+          "homepage": "https://hub.docker.com/r/telegrammessenger/proxy"
+        },
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/DAppNodePackages/telegram-mtpproto.git"
+        },
+        "bugs": {
+          "url": "https://github.com/DAppNodePackages/telegram-mtpproto/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {}
+      }
+    }
+  },
+  {
+    "name": "otpweb.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.0.3": {
+        "name": "otpweb.dnp.dappnode.eth",
+        "version": "0.0.3",
+        "description": "OTP web for DAppNode",
+        "avatar": "QmYyT1ivVEVvu9V4cgSJVw3ivVTpq96h3Knkujs3qVzboR",
+        "type": "service",
+        "image": {
+          "path": "otpweb.dnp.dappnode.eth_0.0.3.tar.xz",
+          "hash": "QmaBqQA9bj6dYiMhGzAoVQeUwJ6G7szvi1yPGYrPYXtjdS",
+          "size": 4873175,
+          "environment": ["VIRTUAL_HOST", "LETSENCRYPT_HOST"],
+          "name": "otpweb.dnp.dappnode.eth",
+          "version": "0.0.3"
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "license": "MIT",
+        "dependencies": {
+          "nginx-proxy.dnp.dappnode.eth": "latest",
+          "letsencrypt-nginx.dnp.dappnode.eth": "latest"
+        }
+      },
+      "0.0.1": {
+        "name": "otpweb.dnp.dappnode.eth",
+        "version": "0.0.1",
+        "description": "OTP web for DAppNode",
+        "image": {
+          "path": "otpweb.dnp.dappnode.eth_0.0.1.tar.xz",
+          "hash": "QmU93bV5ceYSuc2kPWXzDLkVLLUX3yvMS51jmqETRP7mck",
+          "size": 4874463,
+          "enviroment": ["VIRTUAL_HOST", "LETSENCRYPT_HOST"],
+          "name": "otpweb.dnp.dappnode.eth",
+          "version": "0.0.1"
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "license": "MIT",
+        "dependencies": {
+          "nginx-proxy.dnp.dappnode.eth": "latest",
+          "letsencrypt-nginx.dnp.dappnode.eth": "latest"
+        }
+      },
+      "0.0.2": {
+        "name": "otpweb.dnp.dappnode.eth",
+        "version": "0.0.2",
+        "description": "OTP web for DAppNode",
+        "image": {
+          "path": "otpweb.dnp.dappnode.eth_0.0.2.tar.xz",
+          "hash": "QmdD6sajYPYL9kuuZxTJJrtnU5Mhzhsy48aUDDwVWixy9R",
+          "size": 4874463,
+          "environment": ["VIRTUAL_HOST", "LETSENCRYPT_HOST"],
+          "name": "otpweb.dnp.dappnode.eth",
+          "version": "0.0.2"
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "license": "MIT",
+        "dependencies": {
+          "nginx-proxy.dnp.dappnode.eth": "latest",
+          "letsencrypt-nginx.dnp.dappnode.eth": "latest"
+        }
+      }
+    }
+  },
+  {
+    "name": "kovan.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.0.1": {
+        "name": "kovan.dnp.dappnode.eth",
+        "version": "0.0.1",
+        "description": "Kovan chain for DAppNode (parity/parity:v1.11.1)",
+        "avatar": "QmbRA5eX2kuKSueZU7qYUxKzXKkfQqz3MC7PYLkXnV1Tb4",
+        "image": {
+          "path": "kovan.dnp.dappnode.eth_0.0.1.tar.xz",
+          "hash": "QmTsCcp9TSqvScaJ7C868Mp6PUTJAazNuQ341xF3FAN9iJ",
+          "size": 72509327,
+          "ports": ["30303", "30303/udp"],
+          "volumes": ["kovan:/root/.local/share/io.parity.ethereum/"],
+          "name": "kovan.dnp.dappnode.eth",
+          "version": "0.0.1"
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "license": "MIT",
+        "dependencies": {}
+      }
+    }
+  },
+  {
+    "name": "ropsten.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.0.1": {
+        "name": "ropsten.dnp.dappnode.eth",
+        "version": "0.0.1",
+        "description": "Ropsten testnet chain for DAppNode (ethereum/client-go:v1.8.8)",
+        "avatar": "QmWNrTG6Ha9Js83LKANQwkNaTBTQUzAgDF7MFkmGSu5fq8",
+        "image": {
+          "path": "ropsten.dnp.dappnode.eth_0.0.1.tar.xz",
+          "hash": "QmNs9AbbrXQ8Y4DMt4mX7YEFZiSki66hrza1Gt4irRctSu",
+          "size": 10102720,
+          "ports": ["30303", "30303/udp"],
+          "volumes": ["kovan:/home/.ethereum/"],
+          "name": "ropsten.dnp.dappnode.eth",
+          "version": "0.0.1"
+        },
+        "author": "Eduardo Antuña Díez (eduadiez)",
+        "license": "MIT",
+        "dependencies": {}
+      }
+    }
+  },
+  {
+    "name": "bind.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.0": {
+        "name": "bind.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for providing DNS resolution",
+        "avatar": "/ipfs/QmNPDBS2RzQrmtwQ1kpvogCA74ZSWmn8crEU86u2EKAgvy",
+        "type": "dncore",
+        "image": {
+          "path": "bind.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmTz1c5RWT7qyKBhnv4tUbPcMarpTSsDd8r6GXG6LD176j",
+          "size": 3235875,
+          "volumes": ["data:/etc/bind"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.2"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "bind", "DNS"],
+        "homepage": "https://github.com/dappnode/DNP_BIND#readme",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_BIND"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_BIND/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.3": "/ipfs/QmUsr5QakLqxmmjAC88Xg2UfWPMBydQKEtADjWAhgqsVn",
+      "0.1.2": "/ipfs/QmUsr5QakLqxmmjAC88Xg2UfWPMBydQKEtADjWAhgqsVnCª",
+      "0.1.5": {
+        "name": "bind.dnp.dappnode.eth",
+        "version": "0.1.5",
+        "description": "Dappnode package responsible for providing DNS resolution",
+        "avatar": "/ipfs/QmNPDBS2RzQrmtwQ1kpvogCA74ZSWmn8crEU86u2EKAgvy",
+        "type": "dncore",
+        "image": {
+          "path": "bind.dnp.dappnode.eth_0.1.5.tar.xz",
+          "hash": "/ipfs/QmegcCbtu7uWF4fqm96bnamVkKMpAf9TjCFNWec1wSzcoV",
+          "size": 3235411,
+          "volumes": ["binddnpdappnodeeth_data:/etc/bind"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.2"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "bind", "DNS"],
+        "homepage": {
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_BIND"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_BIND/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.4": {
+        "name": "bind.dnp.dappnode.eth",
+        "version": "0.1.1",
+        "description": "Dappnode package responsible for providing DNS resolution",
+        "avatar": "/ipfs/QmNPDBS2RzQrmtwQ1kpvogCA74ZSWmn8crEU86u2EKAgvy",
+        "type": "dncore",
+        "image": {
+          "path": "bind.dnp.dappnode.eth_0.1.1.tar.xz",
+          "hash": "/ipfs/QmeBwnqC5BRakZmY8MfRKKBK2237fWqmDo4JsYKSiBACi2",
+          "size": 3235875,
+          "volumes": ["binddnpdappnodeeth_data:/etc/bind"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.2"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "bind", "DNS"],
+        "homepage": {
+          "adminui": "http://my.bind.dnp.dappnode.eth",
+          "userui": "http://my.bind.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_BIND"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_BIND/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.1": {
+        "name": "bind.dnp.dappnode.eth",
+        "version": "0.1.1",
+        "description": "Dappnode package responsible for providing DNS resolution",
+        "avatar": "/ipfs/QmNPDBS2RzQrmtwQ1kpvogCA74ZSWmn8crEU86u2EKAgvy",
+        "type": "dncore",
+        "image": {
+          "path": "bind.dnp.dappnode.eth_0.1.1.tar.xz",
+          "hash": "/ipfs/QmeBwnqC5BRakZmY8MfRKKBK2237fWqmDo4JsYKSiBACi2",
+          "size": 3235875,
+          "volumes": ["binddnpdappnodeeth_data:/etc/bind"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.2"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "bind", "DNS"],
+        "homepage": {
+          "adminui": "http://my.bind.dnp.dappnode.eth",
+          "userui": "http://my.bind.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_BIND"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_BIND/issues"
+        },
+        "license": "GPL-3.0"
+      }
+    }
+  },
+  {
+    "name": "ipfs.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.2": {
+        "name": "ipfs.dnp.dappnode.eth",
+        "version": "0.1.2",
+        "description": "Dappnode package responsible for providing IPFS connectivity (go-ipfs v0.4.15)",
+        "avatar": "/ipfs/QmViXy8BVb8dQ7J9jLK626kcB5Tz2pvvKE43KHo8RNDXxL",
+        "type": "dncore",
+        "image": {
+          "path": "ipfs.dnp.dappnode.eth_0.1.2.tar.xz",
+          "hash": "/ipfs/Qme9p4sJBow8awyZPnvAGviKptoUqE7zFk8GMxDSqVPioD",
+          "size": 9124856,
+          "volumes": [
+            "ipfsdnpdappnodeeth_export:/export",
+            "ipfsdnpdappnodeeth_data:/data/ipfs"
+          ],
+          "ports": ["4001:4001", "4002:4002/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.5"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "IPFS"],
+        "homepage": {
+          "adminui": "http://my.ipfs.dnp.dappnode.eth:5001/webui",
+          "userui": "http://my.ipfs.dnp.dappnode.eth:8080",
+          "homepage": "https://github.com/dappnode/DNP_IPFS#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_IPFS"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_IPFS/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.3": {
+        "name": "ipfs.dnp.dappnode.eth",
+        "version": "0.1.3",
+        "description": "Dappnode package responsible for providing IPFS connectivity (go-ipfs v0.4.17)",
+        "avatar": "/ipfs/QmViXy8BVb8dQ7J9jLK626kcB5Tz2pvvKE43KHo8RNDXxL",
+        "type": "dncore",
+        "image": {
+          "path": "ipfs.dnp.dappnode.eth_0.1.3.tar.xz",
+          "hash": "/ipfs/Qmb34yFhVN1XP63KYVGqvNZUmAzpCPA6xbQUK7MS1hkTXB",
+          "size": 9506976,
+          "volumes": [
+            "ipfsdnpdappnodeeth_export:/export",
+            "ipfsdnpdappnodeeth_data:/data/ipfs"
+          ],
+          "ports": ["4001:4001", "4002:4002/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.5"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "IPFS"],
+        "homepage": {
+          "adminui": "http://my.ipfs.dnp.dappnode.eth:5001/webui",
+          "homepage": "https://github.com/dappnode/DNP_IPFS#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_IPFS"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_IPFS/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.0": {
+        "name": "ipfs.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for providing IPFS connectivity (go-ipfs v0.4.15)",
+        "avatar": "/ipfs/QmViXy8BVb8dQ7J9jLK626kcB5Tz2pvvKE43KHo8RNDXxL",
+        "type": "dncore",
+        "image": {
+          "path": "ipfs.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmcVHo2T6qVCZHGPuVJumcDzHyyrGTRHPe3zJ55jitSt7C",
+          "size": 9131772,
+          "volumes": ["export:/export", "data:/data/ipfs"],
+          "ports": ["4001:4001", "4002:4002/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.5"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "IPFS"],
+        "homepage": "https://github.com/dappnode/DNP_IPFS#readme",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_IPFS"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_IPFS/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.1": {
+        "name": "ipfs.dnp.dappnode.eth",
+        "version": "0.1.1",
+        "description": "Dappnode package responsible for providing IPFS connectivity (go-ipfs v0.4.15)",
+        "avatar": "/ipfs/QmViXy8BVb8dQ7J9jLK626kcB5Tz2pvvKE43KHo8RNDXxL",
+        "type": "dncore",
+        "image": {
+          "path": "ipfs.dnp.dappnode.eth_0.1.1.tar.xz",
+          "hash": "/ipfs/QmfGJYfRznHU6DHGf53tbyeb4S5wzcBGyi8FGLfh9VmvWN",
+          "size": 9131772,
+          "volumes": [
+            "ipfsdnpdappnodeeth_export:/export",
+            "ipfsdnpdappnodeeth_data:/data/ipfs"
+          ],
+          "ports": ["4001:4001", "4002:4002/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.5"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "IPFS"],
+        "homepage": {
+          "adminui": "http://my.ipfs.dnp.dappnode.eth:5001/webui",
+          "userui": "http://my.ipfs.dnp.dappnode.eth:8080",
+          "homepage": "https://github.com/dappnode/DNP_IPFS#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_IPFS"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_IPFS/issues"
+        },
+        "license": "GPL-3.0"
+      }
+    }
+  },
+  {
+    "name": "vpn.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.4": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.4",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.4.tar.xz",
+          "hash": "/ipfs/QmXhZy99uxWdgu8krcdWcVcTdL99y29uCVvKHWq9RyxfSf",
+          "size": 32131000,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.0": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmXvWFs6Re4Bp42gYa4whQE9yKSJbi3g9PETaTUnypQKm5",
+          "size": 31516488,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "environment": ["VPN_DNS_SRV1=172.33.1.2", "VPN_DNS_SRV2=8.8.8.8"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": "https://github.com/dappnode/DNP_VPN#readme",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.5": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.5",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.5.tar.xz",
+          "hash": "/ipfs/Qmd7ELchi9MJ8mL8watdhhcBo7CLNHy5iwcnwK1iFkvFgy",
+          "size": 36999594,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.3": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.3",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.3.tar.xz",
+          "hash": "/ipfs/QmSpXyyoMEGWwpkqgfXeHGdjZ3WoiQtPSkAwakc9DVuqhA",
+          "size": 31955950,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.10": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.6",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.6.tar.xz",
+          "hash": "/ipfs/QmafZkcKsSrVywro26GKSNgVrUo2EYquRHtE9w1Sq47tbG",
+          "size": 6345955,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.2": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.2",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.2.tar.xz",
+          "hash": "/ipfs/QmeVfNPRbz8zXASB2s745g7zgmx9ya5PBKpBb9jX9xJFR7",
+          "size": 31935522,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "adminui": "http://my.vpn.dnp.dappnode.eth",
+          "userui": "http://my.vpn.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.8": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.8",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.8.tar.xz",
+          "hash": "/ipfs/QmQzXWrt9Qe7qjEUUkGgEfHUjmTxoCtxodNVxUPVpzNkdt",
+          "size": 41173845,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {
+          "dappmanager.dnp.dappnode.eth": "0.1.8"
+        }
+      },
+      "0.1.1": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.1",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.1.tar.xz",
+          "hash": "/ipfs/QmVDxpEtRYyhhf5uKdgJrqT7vNNRp3W8wZBHsWLnoKr34h",
+          "size": 31504548,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "adminui": "http://my.vpn.dnp.dappnode.eth",
+          "userui": "http://my.vpn.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.6": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.6",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.6.tar.xz",
+          "hash": "/ipfs/QmPsipagjo9G1hQ51zonJ6Gfjs3uzTVk9Kc33DtJVrKHdG",
+          "size": 36734104,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.7": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.7",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.7.tar.xz",
+          "hash": "/ipfs/QmSwomD4esVNBKyjhfUETUXPt4Qxryc29AUxVcfKFe8E2D",
+          "size": 41173845,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.9": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.9",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.9.tar.xz",
+          "hash": "/ipfs/QmTNzfyeGDqHYwafkG5AGZYATu3bFApeowiscSEoEcBmep",
+          "size": 40691914,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.12": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.12",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.12.tar.xz",
+          "hash": "/ipfs/QmaNjKnUb5zL26dTH1Z2QTV2gpBL4vt3PzrDe59vgBJGbG",
+          "size": 41474412,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.11": {
+        "name": "vpn.dnp.dappnode.eth",
+        "version": "0.1.10",
+        "description": "Dappnode package responsible for providing the VPN (L2TP/IPSec) connection",
+        "avatar": "/ipfs/QmWwMb3XhuCH6JnCF6m6EQzA4mW9pHHtg7rqAfhDr2ofi8",
+        "type": "dncore",
+        "image": {
+          "path": "vpn.dnp.dappnode.eth_0.1.10.tar.xz",
+          "hash": "/ipfs/QmVHnRYPH4z3rwuMsXMXG24rH4KCFdv1mEUkMuBfAEVgwo",
+          "size": 41050404,
+          "volumes": [
+            "/etc/hostname:/etc/vpnname:ro",
+            "/lib/modules:/lib/modules:ro",
+            "vpndnpdappnodeeth_data:/usr/src/app/secrets",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "ports": ["4500:4500/udp", "500:500/udp"],
+          "privileged": "true",
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.4"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+          "Alex Floyd <alex@giveth.io> (https://github.com/mex20)"
+        ],
+        "keywords": ["DAppNodeCore", "VPN", "IPSec", "L2TP"],
+        "homepage": {
+          "userui": "https://dappnode.github.io/DAppNode_OTP",
+          "homepage": "https://github.com/dappnode/DNP_BIND#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_VPN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_VPN/issues"
+        },
+        "license": "GPL-3.0"
+      }
+    }
+  },
+  {
+    "name": "ethchain.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.5": {
+        "name": "ethchain.dnp.dappnode.eth",
+        "version": "0.1.5",
+        "description": "Dappnode package responsible for providing the Ethereum blockchain, based on Parity v1.10.6",
+        "avatar": "/ipfs/QmNdWMzgapc49kpofYFE9M63Snc2dKJ8YQmEmdRU8wPMEg",
+        "type": "dncore",
+        "image": {
+          "path": "ethchain.dnp.dappnode.eth_0.1.5.tar.xz",
+          "hash": "/ipfs/QmVUXwvRsjQwgbW82w9NJMuiML2N2WkjNZrwJZmDDCjCkm",
+          "size": 83419687,
+          "volumes": [
+            "ethchaindnpdappnodeeth_data:/root/.local/share/io.parity.ethereum/"
+          ],
+          "ports": ["30303:30303", "30303:30303/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.6"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "Parity", "Mainnet", "Ethereum"],
+        "homepage": {
+          "adminui": "http://my.ethchain.dnp.dappnode.eth:8180",
+          "userui": "http://my.ethchain.dnp.dappnode.eth:8545",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.3": {
+        "name": "ethchain.dnp.dappnode.eth",
+        "version": "0.1.3",
+        "description": "Dappnode package responsible for providing the Ethereum blockchain, based on Parity v1.10.6",
+        "avatar": "/ipfs/QmNdWMzgapc49kpofYFE9M63Snc2dKJ8YQmEmdRU8wPMEg",
+        "type": "dncore",
+        "image": {
+          "path": "ethchain.dnp.dappnode.eth_0.1.3.tar.xz",
+          "hash": "/ipfs/QmRptQyk2NgQRjQVGZUxeDVvjzkXARuARPu9C6zGFMmSvE",
+          "size": 85688279,
+          "volumes": [
+            "ethchaindnpdappnodeeth_data:/root/.local/share/io.parity.ethereum/"
+          ],
+          "ports": ["30303:30303", "30303:30303/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.6"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "Parity", "Mainnet", "Ethereum"],
+        "homepage": {
+          "adminui": "http://my.ethchain.dnp.dappnode.eth:8180",
+          "userui": "http://my.ethchain.dnp.dappnode.eth:8545",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.2": {
+        "name": "ethchain.dnp.dappnode.eth",
+        "version": "0.1.2",
+        "description": "Dappnode package responsible for providing the Ethereum blockchain, based on Parity v1.10.6",
+        "avatar": "/ipfs/QmNdWMzgapc49kpofYFE9M63Snc2dKJ8YQmEmdRU8wPMEg",
+        "type": "dncore",
+        "image": {
+          "path": "ethchain.dnp.dappnode.eth_0.1.2.tar.xz",
+          "hash": "/ipfs/QmTuwVCVSrpAtcZPfXrE8vB3BYN2xCcpJq4Uqm13GFYCxX",
+          "size": 85686823,
+          "volumes": [
+            "ethchaindnpdappnodeeth_data:/root/.local/share/io.parity.ethereum/"
+          ],
+          "ports": ["30303:30303", "30303:30303/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.6"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "Parity", "Mainnet", "Ethereum"],
+        "homepage": {
+          "adminui": "http://my.ethchain.dnp.dappnode.eth:8180",
+          "userui": "http://my.ethchain.dnp.dappnode.eth:8545",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.1": {
+        "name": "ethchain.dnp.dappnode.eth",
+        "version": "0.1.1",
+        "description": "Dappnode package responsible for providing the Ethereum blockchain, based on Parity v1.10.4",
+        "avatar": "/ipfs/QmNdWMzgapc49kpofYFE9M63Snc2dKJ8YQmEmdRU8wPMEg",
+        "type": "dncore",
+        "image": {
+          "path": "ethchain.dnp.dappnode.eth_0.1.1.tar.xz",
+          "hash": "/ipfs/QmW6VmCJ28b2rC7RY19C3j6R9sBYdzQXmSG7tBqwkau31z",
+          "size": 87221515,
+          "volumes": [
+            "ethchaindnpdappnodeeth_data:/root/.local/share/io.parity.ethereum/"
+          ],
+          "ports": ["30303:30303", "30303:30303/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.6"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "Parity", "Mainnet", "Ethereum"],
+        "homepage": {
+          "adminui": "http://my.ethchain.dnp.dappnode.eth:8180",
+          "userui": "http://my.ethchain.dnp.dappnode.eth:8545",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.4": {
+        "name": "ethchain.dnp.dappnode.eth",
+        "version": "0.1.4",
+        "description": "Dappnode package responsible for providing the Ethereum blockchain, based on Parity v1.10.6",
+        "avatar": "/ipfs/QmNdWMzgapc49kpofYFE9M63Snc2dKJ8YQmEmdRU8wPMEg",
+        "type": "dncore",
+        "image": {
+          "path": "ethchain.dnp.dappnode.eth_0.1.4.tar.xz",
+          "hash": "/ipfs/Qmdf6yuagv94eCKmgFD6DLjitbX4S5FjgNXLgSHn3ACJgQ",
+          "size": 85660927,
+          "volumes": [
+            "ethchaindnpdappnodeeth_data:/root/.local/share/io.parity.ethereum/"
+          ],
+          "ports": ["30303:30303", "30303:30303/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.6"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "Parity", "Mainnet", "Ethereum"],
+        "homepage": {
+          "adminui": "http://my.ethchain.dnp.dappnode.eth:8180",
+          "userui": "http://my.ethchain.dnp.dappnode.eth:8545",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.0": {
+        "name": "ethchain.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for providing the Ethereum blockchain, based on Parity v1.11.1",
+        "avatar": "/ipfs/QmNdWMzgapc49kpofYFE9M63Snc2dKJ8YQmEmdRU8wPMEg",
+        "type": "dncore",
+        "image": {
+          "path": "ethchain.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmdZd4uVcRocoGs1EQFAyHYs2GE69vPg2yC7aiTqjuWwRb",
+          "size": 73631907,
+          "volumes": ["data:/root/.local/share/io.parity.ethereum/"],
+          "ports": ["30303:30303", "30303:30303/udp"],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.6"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "Parity", "Mainnet", "Ethereum"],
+        "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHCHAIN/issues"
+        },
+        "license": "GPL-3.0"
+      }
+    }
+  },
+  {
+    "name": "ethforward.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.1": {
+        "name": "ethforward.dnp.dappnode.eth",
+        "version": "0.1.1",
+        "description": "Dappnode package responsible for providing .eth address resolve through ENS",
+        "avatar": "/ipfs/QmX2VK8wUfUfXetnCbYqhR6hwLV8W6XLcxRBRFWZhNq1tN",
+        "type": "dncore",
+        "image": {
+          "path": "ethforward.dnp.dappnode.eth_0.1.1.tar.xz",
+          "hash": "/ipfs/QmWAKmxEhUEwFV9WQsqn28vMfUiTo4znPURQPK7n4JQWuJ",
+          "size": 17184946,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.3"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "ETHFORWARD", "ENS"],
+        "homepage": {
+          "homepage": "https://github.com/dappnode/DNP_ETHFORWARD#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHFORWARD"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHFORWARD/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.2": {
+        "name": "ethforward.dnp.dappnode.eth",
+        "version": "0.1.2",
+        "description": "Dappnode package responsible for providing .eth address resolve through ENS",
+        "avatar": "/ipfs/QmX2VK8wUfUfXetnCbYqhR6hwLV8W6XLcxRBRFWZhNq1tN",
+        "type": "dncore",
+        "image": {
+          "path": "ethforward.dnp.dappnode.eth_0.1.2.tar.xz",
+          "hash": "/ipfs/Qmd3CeWbpBBn4UAfHUPQWqZrQteHrGRrAtMHcxrsCupQRR",
+          "size": 17172126,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.3"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "ETHFORWARD", "ENS"],
+        "homepage": {
+          "homepage": "https://github.com/dappnode/DNP_ETHFORWARD#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHFORWARD"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHFORWARD/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.0": {
+        "name": "ethforward.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for providing .eth address resolve through ENS",
+        "avatar": "/ipfs/QmX2VK8wUfUfXetnCbYqhR6hwLV8W6XLcxRBRFWZhNq1tN",
+        "type": "dncore",
+        "image": {
+          "path": "ethforward.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmTdBNdBzLpLfXazyFnDGRggmS1e4cBJPBcxY4G8BQa36S",
+          "size": 17207334,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.3"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "ETHFORWARD", "ENS"],
+        "homepage": "https://github.com/dappnode/DNP_ETHFORWARD#readme",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ETHFORWARD"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ETHFORWARD/issues"
+        },
+        "license": "GPL-3.0"
+      }
+    }
+  },
+  {
+    "name": "wamp.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.0": {
+        "name": "wamp.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for providing WAMP communication, based on crossbar.io",
+        "avatar": "/ipfs/QmSM4ygnbsL7WzbgjggKNVqDurD4cfbFAQMqcKWBMgyPaf",
+        "type": "dncore",
+        "image": {
+          "path": "wamp.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmTh5RVaeCNHenDjeGFDUup8Cr3uToqL24D8FzFuzp6g9W",
+          "size": 37531902,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.8"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore", "WAMP", "crossbar"],
+        "homepage": "https://github.com/dappnode/DNP_WAMP#readme",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_WAMP"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_WAMP/issues"
+        },
+        "license": "GPL-3.0"
+      }
+    }
+  },
+  {
+    "name": "dappmanager.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.1": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.1",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.1.tar.xz",
+          "hash": "/ipfs/QmeENmSwTMTuJF3ExhGYa1ZbfEMLa98rZ8Ui2sF56wkP7B",
+          "size": 38294239,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.8": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.8",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.8.tar.xz",
+          "hash": "/ipfs/QmQhZHBhFdvHgKmYYzm4HQDsDgaP7A9zZHPSfWKN26w1fo",
+          "size": 40657565,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.4": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.4",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.4.tar.xz",
+          "hash": "/ipfs/QmPXT38oPe9HdET9UuFjxQJqRRFPVpXDpgebgY5dYk5QyR",
+          "size": 38507188,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.2": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.2",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.2.tar.xz",
+          "hash": "/ipfs/QmTiYG3h17Q8qsgphfLgYSY6sxgB2UNp4ywqZZJnWAHtdX",
+          "size": 39429456,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "userui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.6": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.6",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.6.tar.xz",
+          "hash": "/ipfs/QmR2xhTe8tbjbm4j7c9YkNXtsy2TZwA3eVHGrLytpc7ecC",
+          "size": 40412000,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.9": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.9",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.9.tar.xz",
+          "hash": "/ipfs/QmcetSu3X7bSTUgCNm7z8nYyy5KsPKZGEVhyjiR2EAbBuS",
+          "size": 40498812,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {
+          "admin.dnp.dappnode.eth": "0.1.4",
+          "vpn.dnp.dappnode.eth": "0.1.7"
+        }
+      },
+      "0.1.11": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.11",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.11.tar.xz",
+          "hash": "/ipfs/QmeREPjAQHA18J3V2wdPE6qAEY7oykCosQqE6Jv3VwP4HQ",
+          "size": 40498096,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.5": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.5",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.5.tar.xz",
+          "hash": "/ipfs/QmSPxVF3VFydwaAtxKVGGyGDbfj3uotEK1GJKTZeYhCRA3",
+          "size": 40734554,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.7": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.7",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.7.tar.xz",
+          "hash": "/ipfs/QmUWkNXN6UjrgFP6zJrdMYT1LUENKzwiNF9ro822d1YZPj",
+          "size": 40525280,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.3": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.3",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.3.tar.xz",
+          "hash": "/ipfs/Qmf7jWEm3bSGvq59orr7Y6Rs3M7Pec24pWAoeXaY7zbdLX",
+          "size": 38547389,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.0": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmfKCLpHk7FSLo6DTxrfTEkejdFGbMejonRJEnAQVgKEAo",
+          "size": 38426092,
+          "volumes": [
+            "data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.10": {
+        "name": "dappmanager.dnp.dappnode.eth",
+        "version": "0.1.10",
+        "description": "Dappnode package responsible for providing the DappNode Package Manager",
+        "avatar": "/ipfs/QmdT2GX9ybaoE25HBk7is8CDnfn2KaFTpZVkLdfkAQs1PN",
+        "type": "dncore",
+        "image": {
+          "path": "dappmanager.dnp.dappnode.eth_0.1.10.tar.xz",
+          "hash": "/ipfs/QmV6cPzhPi1Jys9K3Fneq5RfhF54LhpYPSDMtuhNrRSBKi",
+          "size": 40839498,
+          "volumes": [
+            "dappmanagerdnpdappnodeeth_data:/usr/src/app/dnp_repo/",
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.7"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "contributors": [
+          "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "Manager", "Installer"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth/",
+          "homepage": "https://github.com/dappnode/DNP_DAPPMANAGER#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_DAPPMANAGER/issues"
+        },
+        "license": "GPL-3.0"
+      }
+    }
+  },
+  {
+    "name": "admin.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.2": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.2",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.2.tar.xz",
+          "hash": "/ipfs/QmYoz29eZgrpmwdYX1rQKwv3itg9dJN4W74azCz61Gcs4V",
+          "size": 5882507,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.1": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.1",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.1.tar.xz",
+          "hash": "/ipfs/QmbfQTAQn48afNSssGjr9FnFaiquSBXNmgr4hyW6SaTNfH",
+          "size": 6237785,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.3": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.3",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.3.tar.xz",
+          "hash": "/ipfs/QmQxsJD4KHszL9jshuDebjZmCkWjTA3gLD8N828eBbv4bv",
+          "size": 5893599,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {
+          "dappmanager.dnp.dappnode.eth": "0.1.7"
+        }
+      },
+      "0.1.6": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.6",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.6.tar.xz",
+          "hash": "/ipfs/QmafZkcKsSrVywro26GKSNgVrUo2EYquRHtE9w1Sq47tbG",
+          "size": 6345955,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.7": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.7",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.7.tar.xz",
+          "hash": "/ipfs/QmaKQjkDrmtsFebmLc83daULQKvTqEtTbDfUE92TZEDFzq",
+          "size": 6352339,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.5": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.5",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.5.tar.xz",
+          "hash": "/ipfs/QmUBz7XXSY3EnTssbQLBmBitLNmjpNKzVXFPVvdtZZLwFY",
+          "size": 6205873,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {
+          "dappmanager.dnp.dappnode.eth": "0.1.8"
+        }
+      },
+      "0.1.4": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.4",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.4.tar.xz",
+          "hash": "/ipfs/QmTR7NTyavhgByyzE53uZrEMmHUjLKiAW81urYQQkj4LCH",
+          "size": 6205873,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.8": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.8",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.8.tar.xz",
+          "hash": "/ipfs/QmcVcZUcyZydQu7u4nMAgvV376vTTqoLZvNytehAS3Li1f",
+          "size": 6348567,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0"
+      },
+      "0.1.0": {
+        "name": "admin.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for providing the administrative user interface",
+        "avatar": "/ipfs/QmP7rbBLMfKTHpVQwfmgrenYuuUkVw5CXDfzJSoPBiJuNj",
+        "type": "dncore",
+        "image": {
+          "path": "admin.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/QmQvTEUFwYHYrHPB5jS7nZJt9362AzpqEuNy7iwUZpYpi8",
+          "size": 6222137,
+          "restart": "always",
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.9"
+        },
+        "author": "DAppLion <dapplion@giveth.io> (https://github.com/dapplion)",
+        "contributors": [
+          "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)"
+        ],
+        "keywords": ["DAppNodeCore", "DAPP", "ui", "admin"],
+        "homepage": {
+          "adminui": "http://my.admin.dnp.dappnode.eth",
+          "userui": "http://my.admin.dnp.dappnode.eth",
+          "homepage": "https://github.com/dappnode/DNP_ETHCHAIN#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_ADMIN"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_ADMIN/issues"
+        },
+        "license": "GPL-3.0"
+      }
+    }
+  },
+  {
+    "name": "core.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.1.2": {
+        "name": "core.dnp.dappnode.eth",
+        "version": "0.1.2",
+        "description": "Dappnode package responsible for manage the core packages",
+        "avatar": "/ipfs/QmQWed5zepncXHvDHt5dZipjVcU7vyydxHmVJV5MF6Wwhr",
+        "type": "dncore",
+        "image": {
+          "path": "core.dnp.dappnode.eth_0.1.2.tar.xz",
+          "hash": "/ipfs/QmZkudtGYgYHsPQCTfMcUxDi29ixcpWGZvjqL7vFe28WXv",
+          "size": 19347262,
+          "volumes": [
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.10"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore"],
+        "homepage": {
+          "homepage": "https://github.com/dappnode/DNP_CORE#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_CORE"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_CORE/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {
+          "bind.dnp.dappnode.eth": "0.1.5",
+          "ipfs.dnp.dappnode.eth": "0.1.3",
+          "ethchain.dnp.dappnode.eth": "0.1.4",
+          "ethforward.dnp.dappnode.eth": "0.1.1",
+          "vpn.dnp.dappnode.eth": "0.1.12",
+          "wamp.dnp.dappnode.eth": "0.1.0",
+          "admin.dnp.dappnode.eth": "0.1.7",
+          "dappmanager.dnp.dappnode.eth": "0.1.11"
+        }
+      },
+      "0.1.0": {
+        "name": "core.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for manage the core packages",
+        "avatar": "/ipfs/QmQWed5zepncXHvDHt5dZipjVcU7vyydxHmVJV5MF6Wwhr",
+        "type": "dncore",
+        "image": {
+          "path": "core.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/Qmf2TmqcKk3stw1zt6wzkDW5UrKTCgXNx3k2m5ftr3dip2",
+          "size": 19346978,
+          "volumes": [
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "subnet": "172.33.0.0/16"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore"],
+        "homepage": {
+          "homepage": "https://github.com/dappnode/DNP_CORE#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_CORE"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_CORE/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {
+          "bind.dnp.dappnode.eth": "0.1.4",
+          "ipfs.dnp.dappnode.eth": "0.1.3",
+          "ethchain.dnp.dappnode.eth": "0.1.4",
+          "ethforward.dnp.dappnode.eth": "0.1.1",
+          "vpn.dnp.dappnode.eth": "0.1.11",
+          "wamp.dnp.dappnode.eth": "0.1.0",
+          "admin.dnp.dappnode.eth": "0.1.6",
+          "dappmanager.dnp.dappnode.eth": "0.1.10"
+        }
+      },
+      "0.1.1": {
+        "name": "core.dnp.dappnode.eth",
+        "version": "0.1.0",
+        "description": "Dappnode package responsible for manage the core packages",
+        "avatar": "/ipfs/QmQWed5zepncXHvDHt5dZipjVcU7vyydxHmVJV5MF6Wwhr",
+        "type": "dncore",
+        "image": {
+          "path": "core.dnp.dappnode.eth_0.1.0.tar.xz",
+          "hash": "/ipfs/Qmf2TmqcKk3stw1zt6wzkDW5UrKTCgXNx3k2m5ftr3dip2",
+          "size": 19346978,
+          "volumes": [
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.10"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore"],
+        "homepage": {
+          "homepage": "https://github.com/dappnode/DNP_CORE#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_CORE"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_CORE/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {
+          "bind.dnp.dappnode.eth": "0.1.4",
+          "ipfs.dnp.dappnode.eth": "0.1.3",
+          "ethchain.dnp.dappnode.eth": "0.1.4",
+          "ethforward.dnp.dappnode.eth": "0.1.1",
+          "vpn.dnp.dappnode.eth": "0.1.11",
+          "wamp.dnp.dappnode.eth": "0.1.0",
+          "admin.dnp.dappnode.eth": "0.1.6",
+          "dappmanager.dnp.dappnode.eth": "0.1.10"
+        }
+      },
+      "0.1.3": {
+        "name": "core.dnp.dappnode.eth",
+        "version": "0.1.3",
+        "description": "Dappnode package responsible for manage the core packages",
+        "avatar": "/ipfs/QmQWed5zepncXHvDHt5dZipjVcU7vyydxHmVJV5MF6Wwhr",
+        "type": "dncore",
+        "image": {
+          "path": "core.dnp.dappnode.eth_0.1.3.tar.xz",
+          "hash": "/ipfs/QmbLGH3C5RSxwDC32WjuF6tdG8Qy3EW9fHzyx4PJRkhM7f",
+          "size": 19347262,
+          "volumes": [
+            "/usr/src/dappnode/DNCORE/:/usr/src/app/DNCORE/",
+            "/var/run/docker.sock:/var/run/docker.sock"
+          ],
+          "subnet": "172.33.0.0/16",
+          "ipv4_address": "172.33.1.10"
+        },
+        "author": "Eduardo Antuña <eduadiez@gmail.com> (https://github.com/eduadiez)",
+        "keywords": ["DAppNodeCore"],
+        "homepage": {
+          "homepage": "https://github.com/dappnode/DNP_CORE#readme"
+        },
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dappnode/DNP_CORE"
+        },
+        "bugs": {
+          "url": "https://github.com/dappnode/DNP_CORE/issues"
+        },
+        "license": "GPL-3.0",
+        "dependencies": {
+          "bind.dnp.dappnode.eth": "0.1.5",
+          "ipfs.dnp.dappnode.eth": "0.1.3",
+          "ethchain.dnp.dappnode.eth": "0.1.5",
+          "ethforward.dnp.dappnode.eth": "0.1.2",
+          "vpn.dnp.dappnode.eth": "0.1.12",
+          "wamp.dnp.dappnode.eth": "0.1.0",
+          "admin.dnp.dappnode.eth": "0.1.8",
+          "dappmanager.dnp.dappnode.eth": "0.1.11"
+        }
+      }
+    }
+  },
+  {
+    "name": "livepeer.dnp.dappnode.eth",
+    "status": "Preparing",
+    "versions": {
+      "0.0.1": "/ipfs/QmbFMke1KXqnYyBBWxB74N4c5SBnJMVAiMNRcGu6x1AwQH",
+      "0.0.2": {
+        "name": "livepeer.dnp.dappnode.eth",
+        "version": "0.0.2",
+        "description": "Livepeer demo for EthBerlin'18",
+        "avatar": "/ipfs/QmTYFkLqgNVzJp7TXDHgYddW9zJkzBDm6VBRV4QFCbpjcR",
+        "type": "service",
+        "image": {
+          "path": "livepeer.dnp.dappnode.eth_0.0.2.tar.xz",
+          "hash": "/ipfs/Qmd28wruattz7G931VyqmmiTvmNMMSfZ9bwwBchd6s1r2o",
+          "size": 83308045,
+          "restart": "always",
+          "volumes": ["livepeer:/usr/src/app"],
+          "keywords": ["Livepeer"]
+        },
+        "author": "Eduardo Antuña",
+        "license": ""
+      }
+    }
+  }
+]

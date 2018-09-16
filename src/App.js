@@ -1,18 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import DirectoryVisualizer from "./DirectoryVisualizer";
+import logo from "./img/logo.png";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <div className="container">
+            <img src={logo} width="200" style={{ padding: "7px 0px" }} />
+          </div>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <section className="container">
+          <h3 className="mt-2">Directory visualizer</h3>
+        </section>
+        <div className="horizontal-line" />
+        <section className="container mt-2">
+          <DirectoryVisualizer />
+        </section>
       </div>
     );
   }
